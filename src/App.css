@@ -1,0 +1,38 @@
+body {
+  background-color: red;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+.header {
+  background-color: white;
+  height: 150px;
+  border-bottom: 2px solid red;
+}
+.home {
+  height: 1000px;
+}
+.homessage {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+}
+.pokelist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.poke {
+  border: solid 1px black;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
